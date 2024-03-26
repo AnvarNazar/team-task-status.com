@@ -1,0 +1,11 @@
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background: aliceblue;
+    height: 96vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

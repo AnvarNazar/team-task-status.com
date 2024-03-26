@@ -1,0 +1,13 @@
+.button-primary {
+    padding: 0.4rem 1rem;
+    font-weight: bold;
+    background: lightblue;
+    color: #020d31;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 0.2rem;
+}
+
+.button-primary:hover {
+    background: deepskyblue;
+}
