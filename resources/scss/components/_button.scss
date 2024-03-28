@@ -1,0 +1,19 @@
+@import '../abstracts';
+
+.button {
+    &-primary {
+        font-weight: bolder;
+        font-size: 1.2rem;
+        cursor: pointer;
+        padding: 0.4rem 0.4rem;
+        background: $primary;
+        color: $light;
+        border: 1px solid $dark;
+        border-radius: 0.4rem;
+
+        &:hover {
+            background: darken($primary, 10);
+        }
+    }
+
+}
