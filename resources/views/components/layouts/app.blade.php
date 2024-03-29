@@ -7,11 +7,17 @@
     <title>{{ $title ?? 'Team Task Status' }}</title>
     @vite(['resources/scss/style.scss', 'resources/font-awesome-pro/fontawesome-pro-6.5.1-web/css/all.css'])
 </head>
-<body>
+<body class="app-container">
 <header>
     <nav>
-        <a href="{{ route('index') }}" wire:navigate>Home</a>
-        <a href="{{ route('logout') }}">Logout</a>
+        <a href="{{ route('index') }}" class="active" wire:navigate>
+            <i class="fa-duotone fa-house-user"></i>
+            Home
+        </a>
+        <a href="{{ route('logout') }}">
+            <i class="fa-duotone fa-arrow-up-left-from-circle"></i>
+            Logout
+        </a>
     </nav>
 </header>
 {{ $slot }}
